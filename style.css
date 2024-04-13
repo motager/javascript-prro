@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 1px 3px 0px 3px;
+    box-sizing: border-box;
+}
+
+img { 
+    display: block;
+    margin: 0px auto 0px auto;
+    height: 120px;
+    width: 10%;
+}
+
+#main_div {
+    height: 25rem;
+    width: 100%;
+    box-shadow: #00000038 20px 10px 10px 10px;
+    border-radius: 10px;
+    background-color: rgba(234, 234, 234, 0.346);
+
+}
+
+
+#input_1,#input_2,
+#submit {
+    display: flex;
+    margin: 50px auto 10px auto ;
+}
+
+#input_1,#input_2{
+
+    padding: 5px;
+    height: 40px;
+    width: 20rem;
+    border: 0px;
+    box-shadow: 11px 13px 21px -6px;
+    border-radius: 7px;
+
+}
+
+#result_1,#result_2 {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
