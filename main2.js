@@ -6,7 +6,7 @@ document
     var height_input = document.getElementById("input_2").value;
     // variables
     var weight = weight_input;
-    var height = height_input /100 ;
+    var height = height_input /100;
     var body_mass = weight / (height * height);
     // showing results in web page
     var result_inner_1 = document.getElementById("result_1");
@@ -18,15 +18,15 @@ document
       //نحافه
       result_inner_1.innerHTML = `${body_mass}`;
       result_inner_2.innerHTML = `نحافه`;
-    } else if (body_mass >= 18 && body_mass < 24.9) {
+    } else if (body_mass >= 18 && body_mass <= 24.9) {
       //وزن مثالي
       result_inner_1.innerHTML = `${body_mass}`;
       result_inner_2.innerHTML = `وزن مثالي`;
-    } else if (body_mass <= 25 && body_mass > 29.9) {
+    } else if (body_mass <= 25 && body_mass >= 29.9) {
       //وزن زائد
       result_inner_1.innerHTML = `${body_mass}`;
       result_inner_2.innerHTML = `وزن زائد`;
-    } else if (body_mass <= 30 && body_mass < 34.9) {
+    } else if (body_mass <= 30 && body_mass <= 34.9) {
       //سمنه درجه اولي
       result_inner_1.innerHTML = `${body_mass}`;
       result_inner_2.innerHTML = `سمنه درجه اولي`;
