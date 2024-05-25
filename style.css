@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 1px 3px 0px 3px;
     box-sizing: border-box;
@@ -42,4 +42,30 @@ img {
     display: flex;
     justify-content: center;
     margin: 25px;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.main-div { 
+    position: absolute;
+    top: 30%;
+    left:40%    
+
+}
+
+input { 
+    padding: 5px;
+    height: 40px;
+    width: 20rem;
+    border: 0px;
+    box-shadow: 11px 13px 21px -6px;
+    border-radius: 7px;
+    margin-right: 20px;
+    margin-bottom: 50px;
 }

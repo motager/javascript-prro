@@ -109,19 +109,48 @@
 // var element2 = document.getElementById("my_result").innerHTML
 
 // if statement && switch -- case
+            // last task  //  age calc 
+   // var age = 10; //age 
+  // var health = "normal"; //health
+  // var des = "young"; // description
 
-  var age = 10; //age 
-  var health = "normal"; //health
-  var des = "young"; // description
+  // if (age >=60 && des =="old" ||health=="weak"  ) {
+  // console.log(`this man is a/an ${des} and his age is : ${age} \n he is ${health} because he is an ${des} `)
 
-  if (age >=60 && des =="old" ||health=="weak"  ) {
-  console.log(`this man is a/an ${des} and his age is : ${age} \n he is ${health} because he is an ${des} `)
+  // }
+  // else if (age <60 && age >20 && des =="mid" || health =="strong" ) {
+  //   console.log (`this man is ${des} \n and his age is ${age} \n and he is ${health}`)
+  // }
+  // else if (age>1 &&age<20 &&des=="young" || health =="normal") {
+  //   console.log(`this is an ${des} people \n and he is ${health} \n and his age is ${age} `)
+  // }
 
-  }
-  else if (age <60 && age >20 && des =="mid" || health =="strong" ) {
-    console.log (`this man is ${des} \n and his age is ${age} \n and he is ${health}`)
-  }
-  else if (age>1 &&age<20 &&des=="young" || health =="normal") {
-    console.log(`this is an ${des} people \n and he is ${health} \n and his age is ${age} `)
-  }
 
+
+
+                  //// today we are going to learn array in javascript
+                  // lets get started
+ // firstly we should use [] to add an array 
+ //example 
+ 
+               /* var students = ["Mohamed ","Ali","Yaroub","Hashem","Marawan","sami"] */
+      //  already we created an array  that 's contain  a students' names
+  // we can use some operation 
+  // the first operation we will use is : 
+  // 1. push() ?? 
+  // we can add an item to array with push function ,,, but this item will add in the end of array so there is a way to do that ,,,we will talk about it
+  //2. we can change the value in array we want by using index 
+  //example:
+//   students[0] = "hassan";
+  //now we changed "mohamed" to "hassan"
+  //3. we can delete an item from array by using pop() ?? function ,,,, but pop delete this item from the end of array ,,,so there are a way to add an item where we want
+  //4. we can use splice() ?? function to delete an item from array ,too.
+  // splice ( * deleted value (index)  , ^ the number of items we want to delete ,      )
+  //we can switch items instead of delete it by giving the ^ 0 index....             
+//   students.splice(5,1)
+//   console.log(students);
+
+  
+             ////  array task
+   // elements 
+   //done but again
